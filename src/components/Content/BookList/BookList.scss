@@ -1,0 +1,20 @@
+.book-list {
+    &__container {
+        display: flex;
+        box-shadow: 6px 2px 10px rgba(0, 0, 0, 0.5);
+        border-radius: 5px;
+        flex-direction: column;
+        min-height: 100vh;
+    }
+    &__details {
+        flex-wrap: wrap;
+        padding: 5px;
+        &-rating {
+            margin: 10px 0;
+        }
+    }
+    &__pagination {
+        margin: auto;
+        padding: 20px 0;
+    }
+}

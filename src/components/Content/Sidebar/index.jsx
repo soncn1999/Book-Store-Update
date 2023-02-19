@@ -11,7 +11,7 @@ Sidebar.propTypes = {
 };
 
 Sidebar.defaultProps = {
-    breakcums: [],
+
 }
 
 function getItem(label, key, icon, children, type) {
